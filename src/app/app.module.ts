@@ -42,12 +42,7 @@ import { MatTreeModule } from '@angular/material/tree';
 
 import { DragDropModule } from '@angular/cdk/drag-drop';
 
-
-
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-
-
 @NgModule({
   declarations: [
     AppComponent
@@ -91,7 +86,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatTreeModule,
     DragDropModule,
 
-    ChartsModule
+    ChartsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

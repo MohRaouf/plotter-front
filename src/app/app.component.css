@@ -14,12 +14,16 @@
 }
 
 .col-header {
+    margin-top: 8px;
     position: sticky;
-    background-color: #ff4081;
-    color: rgb(255, 255, 255);
-    font-size: 18px;
+    background-color: #ffcbcb;
+    color: rgb(47, 47, 48);
+    font-size: 24px;
     font-weight: 500;
-    padding: 21px;
+    padding: 25px 0px;
+    border: 1px solid rgb(19, 61, 141);
+    box-shadow: none;
+    border-radius: 10px;
 }
 
 footer {
@@ -32,32 +36,41 @@ footer {
 
 .icons a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 0.5rem;
     color: #f4f4f4;
 }
 
 .company-name {
-    font-size: 1.2rem;
-    margin-top: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.1rem;
 }
 
 
 /******* Horizontal Draggle********/
 
 .list-horizontal {
-    width: 100%;
+    justify-content: center;
+    padding: 5px;
+    height: auto;
+    width: 90%;
     max-width: 100%;
     border: solid 1px rgb(0, 0, 0);
     min-height: 60px;
     display: flex;
     flex-direction: row;
-    background: rgb(233, 226, 231);
     border-radius: 4px;
     overflow: hidden;
 }
+.dimensions-list{
+    background: rgb(228, 161, 255);
+}
+.measures-list{
+    background: rgb(133, 155, 255);
+}
 
 .box-horizontal {
+    max-width: 50%;
     padding: 20px 10px;
     border-right: solid 1px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -67,8 +80,7 @@ footer {
     justify-content: center;
     box-sizing: border-box;
     cursor: move;
-    background: #1d31a3;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     flex-grow: 1;
     flex-basis: 0;
@@ -88,28 +100,39 @@ footer {
 /******* Vertical Draggle********/
 
 .list-vertical {
-    min-height: 60px;
-    background: white;
+    background: rgba(255, 184, 220, 0.247);
     border-radius: 4px;
     overflow: hidden;
     display: block;
+    padding: 10px;
+    border: 1px solid rgb(112, 5, 41);
+    border-radius: 10px;
+
 }
 
 .box-vertical {
+    margin: 5px;
     padding: 20px 10px;
     border-bottom: solid 1px rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
     cursor: move;
-    background: #1d31a3;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    margin-bottom: 2px;
     border-radius: 10px;
+}
+
+.dimensions{
+    background: rgb(145, 40, 187);
+
+}
+.measures{
+    background: rgb(55, 78, 182);
+
 }
 
 .box-vertical:last-child {
