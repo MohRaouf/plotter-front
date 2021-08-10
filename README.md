@@ -1,27 +1,22 @@
-# PlotterFront
+# Plotter Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
+![Plotter](src/assets/plotter-img.png)
 
-## Development server
+A Plotter application where the customers can discover all the columns available in a data source. And based on their business need, draw a line-chart of a measure in correspondence to a dimension. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* The measure values are represented on the Y-
+Axis of the chart
 
-## Code scaffolding
+* The Dimension values are represented on the X-Axis of the chart.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<hr>
 
-## Build
+## Highlights
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- ### Charts Library
+    I used ``` ng2-chart ``` a beautiful charts Library for Angular2 based on Chart.js
 
-## Running unit tests
+- ### Drag / Drop Widget
+    I used ``` Angular Material Drag and drop CDK ``` 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<hr>
