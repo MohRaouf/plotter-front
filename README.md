@@ -11,6 +11,9 @@ Axis of the chart
 
 <hr>
 
+### Deployed on [Netifly](https://plotter-app.netlify.app/)
+<hr>
+
 ## Highlights
 
 - ### Charts Library
